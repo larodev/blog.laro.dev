@@ -1,0 +1,42 @@
+baseURL = "http://blog.laro.dev/"
+languageCode = "en-us"
+title = "Laro dev"
+theme = "etch"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+enableGitInfo = true
+
+[params]
+  copyright = ""
+  dark = "auto"
+  highlight = true
+[taxonomies]
+  tag = 'tags'
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    title = "tags"
+    url = "/tags/"
+    pre = "/ "
+    post = " /"
+    weight = 10
+  [[menu.main]]
+    identifier = "rss"
+    name = "rss"
+    title = "rss"
+    url = "/index.xml"
+    weight = 20
+    post = " /"
+
+[permalinks]
+  posts = "/posts/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+[markup.tableOfContents]
+  ordered = true
