@@ -1,6 +1,6 @@
 baseURL = "http://blog.laro.dev/"
 languageCode = "en-us"
-title = "Laro dev"
+title = "Laro dev - blog"
 theme = "etch"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
@@ -8,9 +8,11 @@ pygmentsUseClasses = true
 enableGitInfo = true
 
 [params]
-  copyright = ""
+  copyright = "Copyright © 2022 - Laro dev"
   dark = "auto"
   highlight = true
+  mainSections = ['posts']
+  
 [taxonomies]
   tag = 'tags'
 
@@ -32,7 +34,7 @@ enableGitInfo = true
     post = " /"
 
 [permalinks]
-  posts = "/posts/:title/"
+  posts = "/posts/:filename/"
 
 [markup.goldmark.renderer]
   # Allow HTML in Markdown
