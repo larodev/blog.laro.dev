@@ -4,7 +4,7 @@ tags:
 - web-development
 date: 2022-03-13
 toc: true
-draft: true
+draft: false
 ---
 
 Developing a business idea.
