@@ -5,9 +5,6 @@ tags:
 date: 2022-03-18
 toc: true
 draft: false
-domain: "https://afrimavalencia.com/"
-n_emp: 2
-
 ---
 
 # Requirements
