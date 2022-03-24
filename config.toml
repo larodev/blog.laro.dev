@@ -58,13 +58,7 @@ paginate = 6
 
 [menu]
   [[menu.header]]
-    name = "Contact"
-    url = "https://www.laro.dev/contact/"
-  [[menu.header]]
-    name = "About"
-    url = "https://www.laro.dev/about/"
-  [[menu.header]]
-    name = "laro.dev"
+    name = "Go to laro.dev"
     url = "https://www.laro.dev/"
   [[menu.footer]]
     name = "RSS"
