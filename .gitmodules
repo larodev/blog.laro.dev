@@ -1,0 +1,4 @@
+[submodule "themes/hugo-tania"]
+	path = themes/hugo-tania
+	url = https://github.com/larodev/hugo-tania
+	branch = blog
