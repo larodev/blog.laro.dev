@@ -27,6 +27,15 @@ Domain:
 Cloud office (docs, storage, email):
 - Google Workspace
 
+## Website
+
+Using Hugo, check themes:
+
+- https://github.com/theNewDynamic/gohugo-theme-ananke
+- https://github.com/StaticMania/portio-hugo
+- https://github.com/radity/raditian-free-hugo-theme 
+- https://github.com/StefMa/hugo-fresh
+
 ## Estimated cost
 
 Website: free*
