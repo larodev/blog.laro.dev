@@ -4,7 +4,7 @@ tags:
 - git
 date: 2022-03-20
 toc: true
-draft: true
+draft: false
 description: Questions that I've had working with git
 ---
 

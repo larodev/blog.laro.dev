@@ -1,44 +1,84 @@
 baseURL = "http://blog.laro.dev/"
 languageCode = "en-us"
-title = "Laro dev - blog"
-theme = "etch"
+title = "Laro blog"
+theme = "hugo-tania"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 enableGitInfo = true
+paginate = 6
 
 [params]
-  copyright = "Copyright © 2022 - Laro dev"
-  dark = "auto"
-  highlight = true
-  mainSections = ['posts']
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji  = "🌊"
+
+  # Logo will show before the blog title on site navbar.
+  titleLogo = ""
+
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes = true
+
+  siteName = "Laro"
+  siteDesc = "Nice web solutions"
+  author = "pir.nz"
+
+  [params.colorScheme]
+    # Enable toggle colorScheme
+    # Default to true
+    toggle = true
+    # Default colorScheme
+    # Default to auto
+    default = "auto"
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow = 10
+
+  # Show your social information with icon on index bio with `_index.md` content.
+  [params.socialOptions]
+    dev-to = ""
+    email = ""
+    facebook = ""
+    github = ""
+    instagram = ""
+    linkedin = ""
+    medium = ""
+    stack-overflow = ""
+    steam = ""
+    telegram = ""
+    twitter = ""
+    twitch = ""
+    whatsapp = ""
   
-[taxonomies]
-  tag = 'tags'
+  # Comments settigns
+  [params.comments]
+    enabled = true
+    provider = "disqus"
 
 [menu]
-  [[menu.main]]
-    identifier = "tags"
-    name = "tags"
-    title = "tags"
-    url = "/tags/"
-    pre = "/ "
-    post = " /"
-    weight = 10
-  [[menu.main]]
-    identifier = "rss"
-    name = "rss"
-    title = "rss"
+  [[menu.header]]
+    name = "Contact"
+    url = "https://www.laro.dev/contact/"
+  [[menu.header]]
+    name = "About"
+    url = "https://www.laro.dev/about/"
+  [[menu.header]]
+    name = "laro.dev"
+    url = "https://www.laro.dev/"
+  [[menu.footer]]
+    name = "RSS"
     url = "/index.xml"
-    weight = 20
-    post = " /"
 
-[permalinks]
-  posts = "/posts/:filename/"
-
+[markup]
+[markup.highlight]
+  noClasses = false
+  lineNos = true
 [markup.goldmark.renderer]
-  # Allow HTML in Markdown
   unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [markup.tableOfContents]
   ordered = true

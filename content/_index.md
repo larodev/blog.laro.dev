@@ -1,8 +1,6 @@
 ---
-title: "Website development"
+title: ""
 date: 2022-03-12
 ---
 
-I like the internet, good websites and coding. 
-
-This is how I make sure I develop good websites.
+Laro is a small development company.
