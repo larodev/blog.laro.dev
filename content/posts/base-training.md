@@ -20,3 +20,7 @@ For the basic training I rely on:
 As exercises I can:
 
 - Check the website of a business and propose an alternative.
+
+## Good base Hugo templates
+
+- https://themes.gohugo.io/themes/hugo-business-frontpage-theme/
