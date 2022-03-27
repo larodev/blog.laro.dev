@@ -56,3 +56,17 @@ $ git rebase -i --root -x "git commit --amend --author 'Author Name <author.name
 From Stackoverflow: [Change git email for previous commits](https://stackoverflow.com/questions/34850831/change-git-email-for-previous-commits) and [Change first commit of project with Git?](https://stackoverflow.com/questions/2246208/change-first-commit-of-project-with-git)
 
 - Keep the `<>` around the email
+
+## Remove a submodule
+
+```bash
+git rm <path-to-submodule>
+```
+Then commit. Optionally do as well:
+
+```bash
+rm -rf .git/modules/<path-to-submodule>, and
+git config --remove-section submodule.<path-to-submodule>.
+```
+
+From [How do I remove a submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule)
