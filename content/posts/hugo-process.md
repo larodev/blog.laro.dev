@@ -5,8 +5,7 @@ tags:
 date: 2022-03-27
 toc: true
 draft: true
-description: 
-Static website manufacturing process using Hugo 
+description: Static website manufacturing process using Hugo 
 ---
 
 # Requirements
